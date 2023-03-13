@@ -1,0 +1,372 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+.header
+{
+    /* border:2px solid black; */
+    width:100%;
+    height:70px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background-color: black;
+}
+
+.nav-item
+{
+    /* border: 2px solid midnightblue; */
+    height:80px;
+    width:190px;
+    
+}
+#center-div 
+{
+    flex-grow: 3;
+     
+}
+
+#center-div ul{
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+#center-div ul li{
+    display: inline-block;
+    margin:5px;
+    padding:15px;
+    
+}
+
+#center-div ul li a{
+    text-decoration: none;
+    color: #edf0f1;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#right-div {
+    
+    text-align: center;
+
+  }
+  
+   #right-btn {
+    background: #1154d2;
+    border-color: #2569e6;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 28px;
+    font-family: "Regular Sf Pro Display",Helvetica,Arial,Lucida,sans-serif;
+    font-size: 17px;
+    margin-top: 13px;
+  }
+  
+
+
+.left-div img
+{
+    margin: auto;
+    width:auto;
+    height:50%;
+    margin-left: 30px;
+    margin-top: 13px;
+}
+
+.html
+{
+    height: 100%;
+}
+.hero-section
+{
+    /* border:2px solid navy; */
+
+    height:539px;
+    width:100%;
+}
+
+.hero-img
+{
+    background-image: url(cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.flex-div
+{
+    /* border: 2px solid darkred; */
+    flex-basis: 700px;
+    width:500px;
+    height:400px;
+    margin-left: 79px;
+}
+
+
+
+.flex-div h2 span
+{
+    color: #FFFFFF;
+    font-weight:600;
+    font-size:53px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#text
+{
+    color:#FFFFFF;
+    line-height:33.6px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+.btn-learn
+{
+    color:#FFFFFF;
+    background-color:#007DB8;
+    border-color: #007DB8;
+    padding:10px 25px;
+    
+    
+}
+
+.featured-div
+{
+    /* border:2px solid indigo; */
+    height:290px;
+    width:100%;
+    background-color:#222222;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+   
+}
+
+
+.featured-div h1{
+    text-align: center;
+    color:#999999;
+    background-color:#222222;
+    line-height:42.9px;
+    font-weight:bold;
+}
+
+
+
+.items
+{
+    /* border: 2px solid darkorchid; */
+    height:130px;
+    width:175px;
+    margin-top: 40px;
+}
+
+
+.items img {
+    display: block;
+    margin:auto;
+    height: 70%;
+  }
+
+  .f-text{
+
+    color:#FFFFFF;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+
+  }
+  
+
+  .featured-div h1
+  {
+   margin-top: 10px;
+   font-weight:400;
+   line-height:42.9px;
+   font-size:39px;
+  }
+
+  .sustain-div
+  {
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    /* border:2px solid brown; */
+    height:520px;
+    background-image: url(sustain.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+  .sustain-content
+  {
+    /* border:2px solid lawngreen; */
+    
+    height:300px;
+    width:50%;
+    margin-left: 100px;
+    
+  }
+
+  .sustain-content h1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:53px;
+    line-height:58.3px;
+    padding:0px 0px 23px;
+}
+
+.sustain-content h4{
+    font-size:28px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:800;
+}
+
+#explore-btn
+{
+    margin-top:25px;
+    color:#FFFFFF;
+    background-color:#007DB8;
+    border-color: #007DB8;
+    padding:10px 30px;
+    
+}
+
+.purple
+{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    /* border:2px solid brown; */
+    height:520px;
+    background-image: url(org.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.purple-content h1
+{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:53px;
+    line-height:58.3px;
+    padding:0px 0px 23px;
+}
+
+
+.purple-content h4
+{
+    font-size:28px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight:800;
+}
+
+
+.purple-content
+  {
+    
+    
+    height:300px;
+    width:50%;
+    margin-left: 100px;
+    
+  }
+
+  #build-btn
+  {
+    
+    margin-top: 25px;
+  }
+
+  .product-div
+  {
+    /* border:2px solid indigo; */
+    height:290px;
+    width:100%;
+    background-color:#222222;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+
+  }
+
+  #head
+  {
+    color:#999999;
+    background-color:#222222;
+    line-height:42.9px;
+    font-weight:100;
+   font-size:39px;
+   margin-top:35px;
+  }
+
+  .measure-div
+  {
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    /* border:2px solid brown; */
+    height:520px;
+    background-image: url(measure.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+  #measure
+  {
+    background-image: url(measure.jpeg);
+    color:white;
+  }
+
+  #footer
+  {
+    /* border: 2px solid hotpink; */
+    background-color:#222222;
+    height: 100px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+  }
+
+  #end
+  {
+    color:aliceblue;
+    height:65%;
+    width:250px;
+    /* border: 2px solid cyan; */
+   
+  }
+
+  
+  #bar
+  {
+    /* border: 2px solid orange; */
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height:65%;
+    width:50%;
+    margin-left: 40px;
+    
+  }
+
+.icons
+{
+    /* border: 2px solid lime; */
+    height:27px;
+    width:27px;
+    background-color:  #FFFFFF;
+    cursor: pointer;
+    padding:5px 5px;
+}
+
+
